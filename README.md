@@ -72,7 +72,7 @@ def find_closest_centroids(X, centroids):
                 idx[j] = i
     return idx
 ```
-```
+
 - **Obsidian**: Preserves the original Markdown.
 - **Notion**: Renders headers, inline equations as text, block equations as math blocks, and code with syntax highlighting.
 
