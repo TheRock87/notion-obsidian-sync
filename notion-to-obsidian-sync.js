@@ -10,9 +10,9 @@ const notion = new Client({ auth: 'API' }); // Replace with your Notion API key
 const n2m = new NotionToMarkdown({ notionClient: notion });
 
 // Configuration
-const PROJECTS_DB_ID = '1750347dfec98119b086e1c4d16e3bd3';
-const NOTES_DB_ID = '1750347dfec98165a256e14adfeaca53';
-const OBSIDIAN_VAULT_PATH = '/media/hossam/New Volume/Obsidian/Note Taking System/Learning Journey Notes';
+const PROJECTS_DB_ID = 'PROJECTS_DB_ID';
+const NOTES_DB_ID = 'NOTES_DB_ID';
+const OBSIDIAN_VAULT_PATH = 'PATH';
 const LAST_SYNC_FILE = 'last_sync.txt';
 
 // Remove task-related content from Markdown
@@ -133,7 +133,7 @@ async function syncNotionToObsidian() {
       filter: {
         and: [
           { property: 'Created', date: { on_or_after: '2025-05-13T00:00:00+03:00' } },
-          { property: 'Tag', relation: { contains: '1750347dfec980dfb7cdf27db46750fc' } },
+          { property: 'Tag', relation: { contains: 'TAG_ID' } },
         ],
       },
     });
