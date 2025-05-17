@@ -38,7 +38,7 @@ These enhancements showcase problem-solving skills, attention to detail, and the
    ```
 3. **Customize Paths**:
    - Edit `notion-to-obsidian-sync.js` to update:
-     - `OBSIDIAN_VAULT_PATH`: Path to your Obsidian vault (e.g., `/media/hossam/New Volume/Obsidian/Note Taking System/Learning Journey Notes`).
+     - `OBSIDIAN_VAULT_PATH`: Path to your Obsidian vault (e.g., `/Obsidian/Note Taking System/Learning Journey Notes`).
      - `PROJECTS_DB_ID` and `NOTES_DB_ID`: Your Notion database IDs.
      - `LAST_SYNC_FILE`: Path for the sync timestamp file.
 
